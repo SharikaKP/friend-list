@@ -32,7 +32,7 @@ const PaginationComponent = ({
     return pages;
   }, [totalPages, currentPage, onPageChange]);
 
-  if (totalPages <= 1) return null;
+  if (totalPages === 0) return null;
 
   return (
     <Pagination className="wrap-content">
