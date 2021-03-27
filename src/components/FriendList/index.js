@@ -25,7 +25,7 @@ const FriendList = () => {
   };
   const [search, setSearch] = useState("");
   const onDelete = (id) => {
-    setList(list.filter((item) => item.id != id));
+    setList(list.filter((item) => item.id !== parseInt(id)));
   };
   const onSearchChange = (value) => {
     setSearch(value);
