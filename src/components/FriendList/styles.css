@@ -12,4 +12,11 @@
 .icon {
   float: right;
   cursor: pointer;
+  padding: 0.5rem;
+}
+.icon-color-fav {
+  color: lightcoral;
+}
+.icon-color-not-fav {
+  color: grey;
 }
