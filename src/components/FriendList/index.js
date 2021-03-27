@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Form from "react-bootstrap/Form";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash, faStar, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faTrash, faHeart } from "@fortawesome/free-solid-svg-icons";
 import "./styles.css";
 import Pagination from "../Pagination";
 
