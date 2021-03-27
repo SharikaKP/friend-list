@@ -6,3 +6,10 @@
 .card-header {
   background-color: lightgray;
 }
+.list-item {
+  display: inline-block;
+}
+.icon {
+  float: right;
+  cursor: pointer;
+}
